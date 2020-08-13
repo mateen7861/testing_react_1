@@ -9,7 +9,7 @@ script:
 deploy:
   provider : surge
   skip_cleanup : true
-  domain :
+  domain : mateen_ftest.surge.sh
   project : ./build/
 
 on:
